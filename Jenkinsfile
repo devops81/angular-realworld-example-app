@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/gothinkster/angular-realworld-example-app.git' // Replace with your repository URL and branch
+                git branch: 'main', url: 'https://github.com/devops81/angular-realworld-example-app.git' // Replace with your repository URL and branch
             }
         }
        stage('Install Dependencies') {
