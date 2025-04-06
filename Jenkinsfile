@@ -23,6 +23,7 @@ pipeline {
                     bat 'npm install core-js@latest'
                     bat 'npm cache clean --force'
                     bat 'npm install --legacy-peer-deps'
+                    bat 'npm install -g @angular/cli'
                     bat 'ng build'
                 }
                             }
