@@ -3,7 +3,7 @@ pipeline {
  environment {
         SONARQUBE_SERVER = 'sonarqubeserver' // Replace with your SonarQube server name configured in Jenkins
         NODE_HOME = "${tool 'NodeJsTool'}" // Replace 'NodeJS' with the NodeJS tool name configured in Jenkins
-        PATH= "C:\\Users\\devop\\AppData\\Roaming\\npm\\ng;${env.PATH}"
+        PATH= "C:\\Users\\devop\\AppData\\Roaming\\npm\\ng;${env.PATH}"asd
     }
     stages {
       stage('Clean Workspace') {
